@@ -153,4 +153,4 @@ filename = "data/tour2_strategies_std_interactions.csv"
 
 tour2_results = run_tournament(good_players, turns, repetitions, filename, "tour2", "./tour2_assets", match_attributes={"length": float('inf')})
 
-
+## tour3 is run like above with turns=200 and repetitions=5; took 1h35m on 16core cpu on rice
